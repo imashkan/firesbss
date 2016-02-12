@@ -232,32 +232,25 @@ function create_config( )
     "id",
     "tagall"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {81444630},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Sbss Bot V2 Beta
-    An Advanced Anti Spam Bot Forked On TeleSeed
+    about_text = [[telefire Bot V2 Beta
+    An Advanced Anti Spam Bot Forked On Telefire
     
-    Develpoed By:
-    @Mr_Ah_S
-    Manager:
-    @amiirdada
-    Founder:
-    @AmirQuick
+    Developed By:
+    SUDO
+    @ashi_admin1_kaboos
     
+
     Special Thank To:
-    Mehr Pouya
-    Arman
-    IM/-\N
-    Creed Is Dead
+    ashi
+   
     
-    Powered By @Sbss_Team
-    
-    #Open Source
-    https://github.com/SbssTeam/Sbss
+    Powered By @ashi_admin1_kaboos
 ]],
-    help_text_realm = [[
-See Patterns In Github
+    help_realm_text
+
 ]],
     help_text = [[
 
@@ -332,7 +325,7 @@ __________________________
 —---------------------—
 نیاز نیست از '!' و '/' استفاده کنید*
 _______________________________
-Writed by SBSS Team
+Writed by FIRE Team
 ]]
   }
   serialize_to_file(config, './data/config.lua')
