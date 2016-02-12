@@ -249,8 +249,14 @@ function create_config( )
     
     Powered By @ashi_admin1_kaboos
 ]],
-    help_realm_text
+    help_realm_text = [[ 
+لیست دستورات :
+_________________________
+ساخت گروه [اسم[
 
+ساخت گروه مخصوص [اسم[
+
+sudo user: @ashi_admin1_kaboos
 ]],
     help_text = [[
 
@@ -326,6 +332,7 @@ __________________________
 نیاز نیست از '!' و '/' استفاده کنید*
 _______________________________
 Writed by FIRE Team
+sudo user: @ashi_admin1_kaboos
 ]]
   }
   serialize_to_file(config, './data/config.lua')
